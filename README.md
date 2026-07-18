@@ -38,11 +38,7 @@
 - **Storage**: Firebase Storage
 - **Hosting**: Firebase Hosting
 
-## Usage
 
-- Visit the hosted application at [Work on Wheels](https://workonwheels-e51e4.web.app/).
-- Sign up as a user or worker.
-- Navigate through the respective dashboards to access features.
 
 
 ## Contributing
