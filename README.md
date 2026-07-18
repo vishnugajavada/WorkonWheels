@@ -38,13 +38,6 @@
 - **Storage**: Firebase Storage
 - **Hosting**: Firebase Hosting
 
-
-
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
 ## Contact
 
 For any inquiries, please contact:
