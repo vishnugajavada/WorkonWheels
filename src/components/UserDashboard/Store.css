@@ -1,0 +1,83 @@
+/* src/components/UserDashboard/Store.css */
+.store {
+    padding: 20px;
+    text-align: center;
+    margin-top: 0%;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: left;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+  }
+  
+  .product-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .product-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cart-button,
+  .book-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .book-button {
+    background-color: #28a745;
+  }
+  
+  .cart-button:hover,
+  .book-button:hover {
+    opacity: 0.9;
+  }
+  .book-button{
+    margin: 0%;
+  }
+  .search-bar{
+    margin-bottom: 0%;
+  }

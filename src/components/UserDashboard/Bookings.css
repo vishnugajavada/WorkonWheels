@@ -1,0 +1,59 @@
+/* src/components/UserDashboard/UserBookings.css */
+
+
+.booking-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.booking-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.booking-card.Executed {
+  border-left: 5px solid #28a745;
+  background-color: #e6f4ea;
+}
+
+.booking-card.Rejected {
+  border-left: 5px solid #dc3545;
+  background-color: #f8d7da;
+}
+
+.booking-card.pending {
+  border-left: 5px solid #ffc107;
+  background-color: #fff3cd;
+}
+
+.booking-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.booking-card p {
+  margin: 5px 0;
+}
+
+.rating {
+  margin-top: 10px;
+}
+
+.star {
+  font-size: 24px;
+  cursor: pointer;
+  color: #ddd;
+}
+
+.star.selected {
+  color: #ffc107;
+  background-color:#e6f4ea;
+}

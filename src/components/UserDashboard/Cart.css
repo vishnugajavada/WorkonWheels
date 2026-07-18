@@ -1,0 +1,134 @@
+.cart {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.cart h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cart-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-item {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  align-items: center;
+  background-color: #f9f9f9;
+  transition: transform 0.2s ease;
+}
+
+.cart-item:hover {
+  transform: scale(1.02);
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.cart-item-details {
+  flex: 1;
+}
+
+.cart-item-details h2 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.cart-item-details p {
+  margin: 5px 0;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-control button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.quantity-control button:hover {
+  background-color: #0056b3;
+}
+
+.quantity-control input {
+  width: 50px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.cart-summary {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cart-summary h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.address-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.place-order {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.place-order:hover {
+  background-color: #218838;
+}
+
+.success-page {
+  text-align: center;
+  padding: 50px;
+}
+
+.success-page h1 {
+  font-size: 2.5em;
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+.success-page button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.success-page button:hover {
+  background-color: #0056b3;
+}

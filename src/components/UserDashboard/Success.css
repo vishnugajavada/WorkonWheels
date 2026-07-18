@@ -1,0 +1,61 @@
+.success-page {
+    text-align: center;
+    padding: 50px;
+    animation: fadeIn 1s ease-in-out;
+    background-color: #f0f0f0; /* Light background color for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .success-page h1 {
+    font-size: 2.5em;
+    color: #28a745; /* Green color for success message */
+    margin-bottom: 20px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .success-page button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+    font-size: 1em; /* Slightly larger text */
+    animation: buttonFadeIn 1s ease-in-out;
+  }
+  
+  .success-page button:hover {
+    background-color: #0056b3;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes buttonFadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

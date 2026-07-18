@@ -1,0 +1,41 @@
+.homeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+.roleSelection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  max-width: 800px;
+  padding-right: 10%; /* Adjust this value to move buttons more towards the right */
+  margin-left: 30%;
+}
+
+.login, .signup {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.roleButton {
+  width: 200px; /* Fixed width to ensure all buttons are the same size */
+  padding: 20px 0; /* Adjust padding for consistent height */
+  margin: 10px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.roleButton:hover {
+  background-color: #0056b3;
+}

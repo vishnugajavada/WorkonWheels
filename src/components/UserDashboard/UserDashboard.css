@@ -1,0 +1,80 @@
+/* src/components/UserDashboard/UserDashboard.css */
+.home {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  margin-top: 0px;;
+}
+.worker-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.worker-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.worker-card:hover {
+  transform: scale(1.05);
+}
+
+.worker-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.worker-card p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.roles {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.role-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.role-button.selected {
+  background-color: #0056b3;
+}
+
+.book-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+  
+}
+
+.book-button:hover {
+  background-color: #218838;
+}
